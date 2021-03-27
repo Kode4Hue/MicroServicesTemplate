@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace MongoDbApiTemplate.CoreAPI.Presn
+namespace MicroServicesTemplate.CoreAPI.Presn
 {
     public class Program
     {

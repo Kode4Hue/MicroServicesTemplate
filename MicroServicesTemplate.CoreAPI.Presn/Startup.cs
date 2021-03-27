@@ -12,7 +12,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace MongoDbApiTemplate.CoreAPI.Presn
+namespace MicroServicesTemplate.CoreAPI.Presn
 {
     public class Startup
     {
@@ -30,7 +30,7 @@ namespace MongoDbApiTemplate.CoreAPI.Presn
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "MongoDbApiTemplate.CoreAPI.Presn", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "MicroServicesTemplate.CoreAPI.Presn", Version = "v1" });
             });
         }
 
@@ -41,7 +41,7 @@ namespace MongoDbApiTemplate.CoreAPI.Presn
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "MongoDbApiTemplate.CoreAPI.Presn v1"));
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "MicroServicesTemplate.CoreAPI.Presn v1"));
             }
 
             app.UseHttpsRedirection();
