@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace MongoDbApiTemplate.Controllers
+namespace MongoDbApiTemplate.CoreAPI.Presn.Controllers
 {
     [ApiController]
     [Route("[controller]")]

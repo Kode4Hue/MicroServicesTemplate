@@ -17,7 +17,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "MongoDbApiTemplate": {
+    "MongoDbApiTemplate.CoreAPI.Presn": {
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "swagger",

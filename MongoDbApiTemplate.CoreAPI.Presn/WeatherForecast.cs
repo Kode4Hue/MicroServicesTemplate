@@ -1,6 +1,6 @@
 using System;
 
-namespace MongoDbApiTemplate
+namespace MongoDbApiTemplate.CoreAPI.Presn
 {
     public class WeatherForecast
     {
