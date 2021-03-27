@@ -7,6 +7,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroServicesTemplate.CoreA
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroServicesTemplate.CoreAPI.CA.Domain", "MicroServicesTemplate.CoreAPI.CA.Domain\MicroServicesTemplate.CoreAPI.CA.Domain.csproj", "{1D477ACB-9D67-40F6-B9D4-B4B7C23FCB1F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroServicesTemplate.CoreAPI.Application", "MicroServicesTemplate.CoreAPI.Application\MicroServicesTemplate.CoreAPI.Application.csproj", "{6DCAE66B-F4B0-4943-9A64-57AEC34B186D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroServicesTemplate.CoreAPI.Infrastructure", "MicroServicesTemplate.CoreAPI.Infrastructure\MicroServicesTemplate.CoreAPI.Infrastructure.csproj", "{ED8C7693-89BD-4A78-AA4A-D66326A72729}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{1D477ACB-9D67-40F6-B9D4-B4B7C23FCB1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1D477ACB-9D67-40F6-B9D4-B4B7C23FCB1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1D477ACB-9D67-40F6-B9D4-B4B7C23FCB1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DCAE66B-F4B0-4943-9A64-57AEC34B186D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DCAE66B-F4B0-4943-9A64-57AEC34B186D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DCAE66B-F4B0-4943-9A64-57AEC34B186D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DCAE66B-F4B0-4943-9A64-57AEC34B186D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED8C7693-89BD-4A78-AA4A-D66326A72729}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED8C7693-89BD-4A78-AA4A-D66326A72729}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED8C7693-89BD-4A78-AA4A-D66326A72729}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED8C7693-89BD-4A78-AA4A-D66326A72729}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
