@@ -11,6 +11,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroServicesTemplate.CoreA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroServicesTemplate.CoreAPI.Infrastructure", "MicroServicesTemplate.CoreAPI.Infrastructure\MicroServicesTemplate.CoreAPI.Infrastructure.csproj", "{ED8C7693-89BD-4A78-AA4A-D66326A72729}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroServicesTemplate.WebUI.Server", "MicroServicesTemplate.WebUI\Server\MicroServicesTemplate.WebUI.Server.csproj", "{AEA896F3-9533-436C-9490-536BA2E449CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroServicesTemplate.WebUI.Client", "MicroServicesTemplate.WebUI\Client\MicroServicesTemplate.WebUI.Client.csproj", "{2AF24A74-14A4-4C9D-96C9-CEC6516DBFEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroServicesTemplate.WebUI.Shared", "MicroServicesTemplate.WebUI\Shared\MicroServicesTemplate.WebUI.Shared.csproj", "{668A0927-47F0-476F-BC86-40652B23528E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +39,18 @@ Global
 		{ED8C7693-89BD-4A78-AA4A-D66326A72729}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED8C7693-89BD-4A78-AA4A-D66326A72729}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED8C7693-89BD-4A78-AA4A-D66326A72729}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEA896F3-9533-436C-9490-536BA2E449CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEA896F3-9533-436C-9490-536BA2E449CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEA896F3-9533-436C-9490-536BA2E449CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEA896F3-9533-436C-9490-536BA2E449CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AF24A74-14A4-4C9D-96C9-CEC6516DBFEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AF24A74-14A4-4C9D-96C9-CEC6516DBFEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AF24A74-14A4-4C9D-96C9-CEC6516DBFEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AF24A74-14A4-4C9D-96C9-CEC6516DBFEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{668A0927-47F0-476F-BC86-40652B23528E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{668A0927-47F0-476F-BC86-40652B23528E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{668A0927-47F0-476F-BC86-40652B23528E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{668A0927-47F0-476F-BC86-40652B23528E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
