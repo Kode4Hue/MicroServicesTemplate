@@ -13,4 +13,8 @@
     <Folder Include="Features\Common\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\MicroServicesTemplate.Domain\MicroServicesTemplate.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
