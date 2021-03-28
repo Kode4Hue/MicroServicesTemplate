@@ -1,25 +1,25 @@
-﻿using MediatR;
-using MicroServicesTemplate.CoreAPI.Presn.Features.Common;
+﻿using MicroServicesTemplate.Web.Shared;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 
-namespace MicroServicesTemplate.CoreAPI.Presn.Features.Petrol
+namespace MicroServicesTemplate.Web.Server.Controllers
 {
-    [Route("api/[controller]")]
     [ApiController]
-    public class PetrolController : APIControllerBase
+    [Route("[controller]")]
+    public class WeatherForecastController : ControllerBase
     {
         private static readonly string[] Summaries = new[]
-       {
+        {
             "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
         };
 
-        private readonly ILogger<PetrolController> _logger;
+        private readonly ILogger<WeatherForecastController> _logger;
 
-        public PetrolController(ISender mediator, ILogger<PetrolController> logger):base(mediator)
+        public WeatherForecastController(ILogger<WeatherForecastController> logger)
         {
             _logger = logger;
         }

@@ -12,4 +12,9 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\MicroServicesTemplate.CoreAPI.Application\MicroServicesTemplate.CoreAPI.Application.csproj" />
+    <ProjectReference Include="..\MicroServicesTemplate.CoreAPI.Infrastructure\MicroServicesTemplate.CoreAPI.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>
