@@ -2,10 +2,10 @@
 using MicroServicesTemplate.Domain.Features.Petrol;
 using MicroServicesTemplate.Domain.Features.Common;
 
-namespace MicroServicesTemplate.CoreAPI.Application.Features.Common
+namespace MicroServicesTemplate.CoreAPI.Application.Features.Petrol.Services
 {
     public interface IPetrolService
     {
-        Task<ResultDTO<PetrolPriceDTO>> GetPetrolPrices(int limit);
+        Task<Result<PetrolPrice>> GetPetrolPrices(int limit);
     }
 }

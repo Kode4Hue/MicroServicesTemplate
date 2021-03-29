@@ -1,4 +1,7 @@
-using MicroServicesTemplate.CoreAPI.Application;
+﻿using MicroServicesTemplate.CoreAPI.Application;
+using MicroServicesTemplate.CoreAPI.Application.Features.Account;
+using MicroServicesTemplate.CoreAPI.Infrastructure;
+using MicroServicesTemplate.CoreAPI.Presn.Features.Account.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -28,6 +31,9 @@ namespace MicroServicesTemplate.CoreAPI.Presn
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddApplication();
+            services.AddInfrastructure(Configuration);
+            services.AddSingleton<ICurrentUserService, CurrentUserService>();
+            services.AddHttpContextAccessor();
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {

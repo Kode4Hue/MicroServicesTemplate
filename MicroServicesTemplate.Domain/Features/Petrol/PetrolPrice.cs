@@ -1,6 +1,6 @@
 ﻿namespace MicroServicesTemplate.Domain.Features.Petrol
 {
-    public class PetrolPriceDTO
+    public class PetrolPrice
     {
         public string Id { get; set; }
         public string OutletId { get; set; }

@@ -2,7 +2,7 @@
 
 namespace MicroServicesTemplate.Domain.Features.Common
 {
-    public class ResultDTO<T>
+    public class Result<T>
     {
         public List<string> ResourceId { get; set; }
         public int Limit { get; set; }

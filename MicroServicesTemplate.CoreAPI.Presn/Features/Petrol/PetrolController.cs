@@ -1,10 +1,11 @@
-﻿using MediatR;
+﻿using System.Threading.Tasks;
+using MediatR;
+using MicroServicesTemplate.CoreAPI.Application.Features.Petrol.Queries.GetPetrolPrices;
 using MicroServicesTemplate.CoreAPI.Presn.Features.Common;
+using MicroServicesTemplate.Domain.Features.Common;
+using MicroServicesTemplate.Domain.Features.Petrol;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 
 namespace MicroServicesTemplate.CoreAPI.Presn.Features.Petrol
 {
@@ -12,10 +13,6 @@ namespace MicroServicesTemplate.CoreAPI.Presn.Features.Petrol
     [ApiController]
     public class PetrolController : APIControllerBase
     {
-        private static readonly string[] Summaries = new[]
-       {
-            "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-        };
 
         private readonly ILogger<PetrolController> _logger;
 
@@ -25,16 +22,15 @@ namespace MicroServicesTemplate.CoreAPI.Presn.Features.Petrol
         }
 
         [HttpGet]
-        public IEnumerable<WeatherForecast> Get()
+        public async Task<Result<PetrolPrice>> Get()
         {
-            var rng = new Random();
-            return Enumerable.Range(1, 5).Select(index => new WeatherForecast
+            var query = new GetPetrolPricesQuery
             {
-                Date = DateTime.Now.AddDays(index),
-                TemperatureC = rng.Next(-20, 55),
-                Summary = Summaries[rng.Next(Summaries.Length)]
-            })
-            .ToArray();
+                Limit = 10
+            };
+
+            var result = await Mediator.Send(query);
+            return result;
         }
     }
 }

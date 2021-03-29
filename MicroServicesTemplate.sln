@@ -21,13 +21,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CoreAPI", "CoreAPI", "{E0B8
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SharedLibraries", "SharedLibraries", "{7C2CACB0-0C68-4FE4-8F6E-80D406180317}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroServicesTemplate.Web.Server", "MicroServicesTemplate.Web\Server\MicroServicesTemplate.Web.Server.csproj", "{FD5DBBA6-8AB8-4A06-A876-FD661D7118C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroServicesTemplate.Web.Server", "MicroServicesTemplate.Web\Server\MicroServicesTemplate.Web.Server.csproj", "{FD5DBBA6-8AB8-4A06-A876-FD661D7118C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroServicesTemplate.Web.Client", "MicroServicesTemplate.Web\Client\MicroServicesTemplate.Web.Client.csproj", "{CD26D5C1-174C-4C39-B170-15046AC2201B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroServicesTemplate.Web.Client", "MicroServicesTemplate.Web\Client\MicroServicesTemplate.Web.Client.csproj", "{CD26D5C1-174C-4C39-B170-15046AC2201B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroServicesTemplate.Web.Shared", "MicroServicesTemplate.Web\Shared\MicroServicesTemplate.Web.Shared.csproj", "{64528A4A-AA4B-4E94-B2AE-0390178B735E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroServicesTemplate.Web.Shared", "MicroServicesTemplate.Web\Shared\MicroServicesTemplate.Web.Shared.csproj", "{64528A4A-AA4B-4E94-B2AE-0390178B735E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroServicesTemplate.Domain", "MicroServicesTemplate.Domain\MicroServicesTemplate.Domain.csproj", "{B90938E5-C842-46BB-924A-8A899D55B378}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroServicesTemplate.DTOs", "MicroServicesTemplate.Domain\MicroServicesTemplate.DTOs.csproj", "{B90938E5-C842-46BB-924A-8A899D55B378}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
