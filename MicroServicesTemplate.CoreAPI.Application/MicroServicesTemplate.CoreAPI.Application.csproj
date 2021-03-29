@@ -5,6 +5,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Features\Common\Behaviours\AuthorizationBehaviour.cs" />
+    <Compile Remove="Features\Common\Behaviours\LoggingBehaviour.cs" />
+    <Compile Remove="Features\Common\Behaviours\PerformanceBehaviour.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="FluentValidation" Version="9.5.1" />
         <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="9.5.1" />
     <PackageReference Include="MediatR" Version="9.0.0" />

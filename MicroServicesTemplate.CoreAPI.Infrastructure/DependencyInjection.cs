@@ -12,7 +12,7 @@ namespace MicroServicesTemplate.CoreAPI.Infrastructure
 
         public static IServiceCollection AddInfrastructure(this IServiceCollection services, IConfiguration configuration)
         {
-            services.AddTransient<IIdentityService, IdentityService>();
+            //services.AddTransient<IIdentityService, IdentityService>();
             services.AddTransient<IPetrolService, PetrolService>();
             return services;
         }

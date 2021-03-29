@@ -4,17 +4,10 @@ using MicroServicesTemplate.CoreAPI.Infrastructure;
 using MicroServicesTemplate.CoreAPI.Presn.Features.Account.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace MicroServicesTemplate.CoreAPI.Presn
 {
@@ -55,6 +48,8 @@ namespace MicroServicesTemplate.CoreAPI.Presn
 
             app.UseRouting();
 
+           // app.UseAuthentication();
+           // app.UseIdentityServer();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
