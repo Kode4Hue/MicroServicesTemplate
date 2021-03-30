@@ -32,6 +32,8 @@ namespace MicroServicesTemplate.CoreAPI.Presn
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "MicroServicesTemplate.CoreAPI.Presn", Version = "v1" });
             });
+
+            services.AddRouting(options => options.LowercaseUrls = true);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
