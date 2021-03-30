@@ -2,8 +2,10 @@
 using MicroServicesTemplate.CoreAPI.Application.Features.Account;
 using MicroServicesTemplate.CoreAPI.Infrastructure;
 using MicroServicesTemplate.CoreAPI.Presn.Features.Account.Services;
+using MicroServicesTemplate.CoreAPI.Presn.Features.Common.Routing;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Mvc.ApplicationModels;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -34,6 +36,12 @@ namespace MicroServicesTemplate.CoreAPI.Presn
             });
 
             services.AddRouting(options => options.LowercaseUrls = true);
+
+            services.AddControllersWithViews(options =>
+            {
+                options.Conventions.Add(new RouteTokenTransformerConvention(
+                                             new SlugifyParameterTransformer()));
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
