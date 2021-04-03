@@ -1,4 +1,4 @@
-﻿namespace MicroServicesTemplate.Domain.Features.Petrol
+﻿namespace MicroServicesTemplate.Shared.DTOs.Features.Petrol
 {
     public class PetrolPrice
     {

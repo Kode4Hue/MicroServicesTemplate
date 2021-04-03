@@ -19,7 +19,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MicroServicesTemplate.Domain\MicroServicesTemplate.DTOs.csproj" />
+    <Folder Include="Features\Petrol\Queries\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MicroServicesTemplate.Shared.DTOs\MicroServicesTemplate.Shared.DTOs.csproj" />
   </ItemGroup>
 
 </Project>

@@ -19,7 +19,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebServices", "WebServices"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CoreAPI", "CoreAPI", "{E0B83D57-1314-466E-9517-34AEBC221C79}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SharedLibraries", "SharedLibraries", "{7C2CACB0-0C68-4FE4-8F6E-80D406180317}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{7C2CACB0-0C68-4FE4-8F6E-80D406180317}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroServicesTemplate.Web.Server", "MicroServicesTemplate.Web\Server\MicroServicesTemplate.Web.Server.csproj", "{FD5DBBA6-8AB8-4A06-A876-FD661D7118C5}"
 EndProject
@@ -27,7 +27,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroServicesTemplate.Web.C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroServicesTemplate.Web.Shared", "MicroServicesTemplate.Web\Shared\MicroServicesTemplate.Web.Shared.csproj", "{64528A4A-AA4B-4E94-B2AE-0390178B735E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroServicesTemplate.DTOs", "MicroServicesTemplate.Domain\MicroServicesTemplate.DTOs.csproj", "{B90938E5-C842-46BB-924A-8A899D55B378}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{1573D957-EF41-4496-9FB0-D561503E4D2F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroServicesTemplate.UIClient.Application", "MicroServicesTemplate.UIClient.Application\MicroServicesTemplate.UIClient.Application.csproj", "{7A961825-CF48-4A6F-BC85-03F11B00FB0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroServicesTemplate.Shared.DTOs", "MicroServicesTemplate.Shared.DTOs\MicroServicesTemplate.Shared.DTOs.csproj", "{E680E2CD-34BA-4BAE-9D8B-29D36DB22E91}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,10 +67,14 @@ Global
 		{64528A4A-AA4B-4E94-B2AE-0390178B735E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64528A4A-AA4B-4E94-B2AE-0390178B735E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64528A4A-AA4B-4E94-B2AE-0390178B735E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B90938E5-C842-46BB-924A-8A899D55B378}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B90938E5-C842-46BB-924A-8A899D55B378}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B90938E5-C842-46BB-924A-8A899D55B378}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B90938E5-C842-46BB-924A-8A899D55B378}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A961825-CF48-4A6F-BC85-03F11B00FB0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A961825-CF48-4A6F-BC85-03F11B00FB0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A961825-CF48-4A6F-BC85-03F11B00FB0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A961825-CF48-4A6F-BC85-03F11B00FB0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E680E2CD-34BA-4BAE-9D8B-29D36DB22E91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E680E2CD-34BA-4BAE-9D8B-29D36DB22E91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E680E2CD-34BA-4BAE-9D8B-29D36DB22E91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E680E2CD-34BA-4BAE-9D8B-29D36DB22E91}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -81,7 +89,9 @@ Global
 		{FD5DBBA6-8AB8-4A06-A876-FD661D7118C5} = {D1A910C7-E6C1-40E5-A617-30A256928530}
 		{CD26D5C1-174C-4C39-B170-15046AC2201B} = {D1A910C7-E6C1-40E5-A617-30A256928530}
 		{64528A4A-AA4B-4E94-B2AE-0390178B735E} = {D1A910C7-E6C1-40E5-A617-30A256928530}
-		{B90938E5-C842-46BB-924A-8A899D55B378} = {7C2CACB0-0C68-4FE4-8F6E-80D406180317}
+		{1573D957-EF41-4496-9FB0-D561503E4D2F} = {9677DFE7-C298-4842-BBA8-DF2881CF083D}
+		{7A961825-CF48-4A6F-BC85-03F11B00FB0D} = {1573D957-EF41-4496-9FB0-D561503E4D2F}
+		{E680E2CD-34BA-4BAE-9D8B-29D36DB22E91} = {7C2CACB0-0C68-4FE4-8F6E-80D406180317}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E5FA759D-9746-4BB7-B315-0CFBFF4752A7}

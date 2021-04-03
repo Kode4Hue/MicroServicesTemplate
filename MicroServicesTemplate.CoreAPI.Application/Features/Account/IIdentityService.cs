@@ -1,5 +1,5 @@
 ﻿using System.Threading.Tasks;
-using MicroServicesTemplate.Domain.Features.Common;
+using MicroServicesTemplate.Shared.DTOs.Features.Common;
 
 namespace MicroServicesTemplate.CoreAPI.Application.Features.Account
 {

@@ -5,10 +5,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Features\LandingPage\**" />
     <Compile Remove="Shared\**" />
+    <Content Remove="Features\LandingPage\**" />
     <Content Remove="Shared\**" />
+    <EmbeddedResource Remove="Features\LandingPage\**" />
     <EmbeddedResource Remove="Shared\**" />
+    <None Remove="Features\LandingPage\**" />
     <None Remove="Shared\**" />
+    <SassFile Remove="Features\LandingPage\**" />
     <SassFile Remove="Shared\**" />
   </ItemGroup>
 
@@ -30,8 +35,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Features\LandingPage\" />
-    <Folder Include="Features\Petrol\" />
     <Folder Include="Styles\" />
   </ItemGroup>
 

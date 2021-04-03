@@ -2,8 +2,8 @@
 using System.Threading.Tasks;
 using MediatR;
 using MicroServicesTemplate.CoreAPI.Application.Features.Petrol.Services;
-using MicroServicesTemplate.Domain.Features.Common;
-using MicroServicesTemplate.Domain.Features.Petrol;
+using MicroServicesTemplate.Shared.DTOs.Features.Common;
+using MicroServicesTemplate.Shared.DTOs.Features.Petrol;
 
 namespace MicroServicesTemplate.CoreAPI.Application.Features.Petrol.Queries.GetPetrolPrices
 {

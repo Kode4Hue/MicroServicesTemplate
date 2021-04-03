@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
@@ -18,7 +18,7 @@
   <ItemGroup>
     <ProjectReference Include="..\MicroServicesTemplate.CoreAPI.Application\MicroServicesTemplate.CoreAPI.Application.csproj" />
     <ProjectReference Include="..\MicroServicesTemplate.CoreAPI.Domain\MicroServicesTemplate.CoreAPI.Domain.csproj" />
-    <ProjectReference Include="..\MicroServicesTemplate.Domain\MicroServicesTemplate.DTOs.csproj" />
+    <ProjectReference Include="..\MicroServicesTemplate.Shared.DTOs\MicroServicesTemplate.Shared.DTOs.csproj" />
   </ItemGroup>
 
 </Project>

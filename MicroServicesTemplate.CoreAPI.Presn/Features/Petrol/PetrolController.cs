@@ -2,8 +2,8 @@
 using MediatR;
 using MicroServicesTemplate.CoreAPI.Application.Features.Petrol.Queries.GetPetrolPrices;
 using MicroServicesTemplate.CoreAPI.Presn.Features.Common;
-using MicroServicesTemplate.Domain.Features.Common;
-using MicroServicesTemplate.Domain.Features.Petrol;
+using MicroServicesTemplate.Shared.DTOs.Features.Common;
+using MicroServicesTemplate.Shared.DTOs.Features.Petrol;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 

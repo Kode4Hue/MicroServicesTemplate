@@ -3,9 +3,9 @@ using System.Threading.Tasks;
 using MicroServicesTemplate.CoreAPI.Application.Features.Account;
 using MicroServicesTemplate.CoreAPI.Domain.Features.Account;
 using MicroServicesTemplate.CoreAPI.Infrastructure.Features.Account.Extensions;
-using MicroServicesTemplate.Domain.Features.Common;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
+using MicroServicesTemplate.Shared.DTOs.Features.Common;
 
 namespace MicroServicesTemplate.CoreAPI.Infrastructure.Features.Account.Services
 {

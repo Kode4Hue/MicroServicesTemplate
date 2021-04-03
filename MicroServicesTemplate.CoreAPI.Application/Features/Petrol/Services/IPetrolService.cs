@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
-using MicroServicesTemplate.Domain.Features.Petrol;
-using MicroServicesTemplate.Domain.Features.Common;
+using MicroServicesTemplate.Shared.DTOs.Features.Common;
+using MicroServicesTemplate.Shared.DTOs.Features.Petrol;
 
 namespace MicroServicesTemplate.CoreAPI.Application.Features.Petrol.Services
 {

@@ -1,9 +1,7 @@
-﻿using MicroServicesTemplate.CoreAPI.Application.Features.Account;
-using MicroServicesTemplate.CoreAPI.Application.Features.Petrol.Services;
-using MicroServicesTemplate.CoreAPI.Infrastructure.Features.Account.Services;
-using MicroServicesTemplate.CoreAPI.Infrastructure.Features.Petrol.Services;
+﻿using MicroServicesTemplate.CoreAPI.Infrastructure.Features.Petrol.Services;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using MicroServicesTemplate.CoreAPI.Application.Features.Petrol.Services;
 
 namespace MicroServicesTemplate.CoreAPI.Infrastructure
 {

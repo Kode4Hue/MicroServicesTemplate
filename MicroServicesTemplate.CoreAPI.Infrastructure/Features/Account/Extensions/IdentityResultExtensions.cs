@@ -1,4 +1,4 @@
-﻿using MicroServicesTemplate.Domain.Features.Common;
+﻿using MicroServicesTemplate.Shared.DTOs.Features.Common;
 using Microsoft.AspNetCore.Identity;
 using System.Linq;
 
