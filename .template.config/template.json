@@ -1,7 +1,7 @@
 {
     "$schema": "http://json.schemastore.org/template",
     "author": "Hubert Graham",
-    "classifications": [ "Blazor" ],
+    "classifications": [ "Web/ASP.NET" ],
     "identity": "MicroServicesTemplate",
     "shortName": "MicroServicesTemplate",
     "name": "MicroServicesTemplate .NET 5 Template",
