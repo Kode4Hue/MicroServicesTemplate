@@ -4,7 +4,7 @@
     "classifications": [ "Blazor" ],
     "identity": "MicroServicesTemplate",
     "shortName": "MicroServicesTemplate",
-    "name": "Starter .NET 5 MicroServices Template with Clean Architecture principles.",
+    "name": "MicroServicesTemplate .NET 5 Template",
     "tags": {
 	    "language": "C#",
 	    "type": "project"
