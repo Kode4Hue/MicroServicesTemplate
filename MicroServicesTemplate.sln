@@ -11,29 +11,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroServicesTemplate.CoreA
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroServicesTemplate.CoreAPI.Infrastructure", "MicroServicesTemplate.CoreAPI.Infrastructure\MicroServicesTemplate.CoreAPI.Infrastructure.csproj", "{ED8C7693-89BD-4A78-AA4A-D66326A72729}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UIClients", "UIClients", "{9677DFE7-C298-4842-BBA8-DF2881CF083D}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{D1A910C7-E6C1-40E5-A617-30A256928530}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebServices", "WebServices", "{1F45DCD5-4192-4C7E-8006-81065567D670}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CoreAPI", "CoreAPI", "{E0B83D57-1314-466E-9517-34AEBC221C79}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{7C2CACB0-0C68-4FE4-8F6E-80D406180317}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroServicesTemplate.Web.Server", "MicroServicesTemplate.Web\Server\MicroServicesTemplate.Web.Server.csproj", "{FD5DBBA6-8AB8-4A06-A876-FD661D7118C5}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroServicesTemplate.Web.Client", "MicroServicesTemplate.Web\Client\MicroServicesTemplate.Web.Client.csproj", "{CD26D5C1-174C-4C39-B170-15046AC2201B}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroServicesTemplate.Web.Shared", "MicroServicesTemplate.Web\Shared\MicroServicesTemplate.Web.Shared.csproj", "{64528A4A-AA4B-4E94-B2AE-0390178B735E}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CleanArchitecture", "CleanArchitecture", "{1573D957-EF41-4496-9FB0-D561503E4D2F}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroServicesTemplate.Shared.DTOs", "MicroServicesTemplate.Shared.DTOs\MicroServicesTemplate.Shared.DTOs.csproj", "{E680E2CD-34BA-4BAE-9D8B-29D36DB22E91}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroServicesTemplate.UIClient.CA.Application", "MicroServicesTemplate.UIClient.CA.Application\MicroServicesTemplate.UIClient.CA.Application.csproj", "{7C176087-D72C-42BA-96D5-283A6A34C9BA}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroServicesTemplate.UIClient.CA.Infrastructure", "MicroServicesTemplate.UIClient.CA.Infrastructure\MicroServicesTemplate.UIClient.CA.Infrastructure.csproj", "{8551B25B-9BB7-43EE-9429-E0F5748064E0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
