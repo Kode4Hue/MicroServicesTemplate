@@ -1,0 +1,14 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "Hubert Graham",
+    "classifications": [ "Blazor" ],
+    "identity": "MicroServicesTemplate",
+    "shortName": "MicroServicesTemplate",
+    "name": "Starter MicroServices Template with Clean Architecture principles.",
+    "tags": {
+	    "language": "C#",
+	    "type": "project"
+	  },
+    "sourceName": "MicroServicesTemplate",
+    "preferNameDirectory": true
+}
